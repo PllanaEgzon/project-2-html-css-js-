@@ -9,19 +9,22 @@
 </head>
 <body>
     <div class="selections">
-        <button class="selection">&#9994;</i></button>
-        <button class="selection">&#9995;</i></button>
-        <button class="selection">&#9996;</i></button>
+        <button class="selection" data-selention="rock">&#9994;</i></button>
+        <button class="selection" data-selention="paper">&#9995;</i></button>
+        <button class="selection" data-selention="scissors">&#9996;</i></button>
     </div>
     <div class="results">
         <div>
             You
-            <span class="result-score">0</span>
+            <span class="result-score" data-your-score>0</span>
         </div>
         <div>
             Computer
-            <span class="result-score">0</span>
+            <span class="result-score" data-computer-score>0</span>
         </div>
+        <div data-final-column=""></div>
+        <div class="result-selection winner">&#9994;</div>
+        <div class="result-selection winner">&#9995;</div>
     </div>
 </body>
 <script src="https://kit.fontawesome.com/4f1d83c8d2.js" crossorigin="anonymous"></script>
